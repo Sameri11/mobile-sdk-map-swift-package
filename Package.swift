@@ -1,6 +1,5 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(
@@ -13,8 +12,8 @@ let package = Package(
     targets: [
 		.binaryTarget(
 			name: "DGis",
-			url: "https://maven.2gis.dev/sdk-ios-rc/sdk-release-v1.0.0/Release/map-RC-1625158954969.xcframework.zip",
-			checksum: "e109db7b1b4a05104ef037079e1d721912ce972c40b831570f726e813b8ccd2c"
+			url: "https://artifactory.2gis.dev/sdk-ios-rc/null/Release/map-RC-1625211571249.xcframework.zip",
+			checksum: "8e7de3d202bc0d1cc289961654c5918f1cfdb9b625fffa3a38de5edbfcfaae27"
 		)
     ]
 )
